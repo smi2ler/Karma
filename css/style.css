@@ -1,6 +1,51 @@
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 0;
 }
 div {
+    /*border: 1px solid Chocolate;*/
+}
+#container {
+    width: 1113px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 12px;
     border: 1px solid Chocolate;
+}
+#logo {
+    float: left;
+    padding-top: 3px;
+}
+#menu {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+#last {
+    padding-right: 0px;
+    margin-right: 0px;
+    color: #4C5058;
+    font-weight: bold;
+}
+#meet {
+    color: #4C5058;
+    font-weight: bold;
+}
+.menu-items li {
+    color: #838994;
+    display: inline;
+    padding-right: 30px;
+    margin: 0;
+}
+
+li:hover {
+    
+    color:aqua;
+}
+
+#meet:hover {
+    color:chocolate;
+    cursor: pointer;
 }
